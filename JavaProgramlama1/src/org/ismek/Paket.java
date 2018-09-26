@@ -58,13 +58,13 @@ public class Paket {
 		
 		Scanner scanner = new Scanner(System.in);
 		String isim = scanner.next();
-		System.out.println("Merhaba " + isim + ", Lütfen 2 sayi giriniz.");
+		System.out.println("Merhaba " + isim + ", LÃ¼tfen 2 sayi giriniz.");
 		
 
-		System.out.println("Ýlk Sayi");
+		System.out.println("Ä°lk Sayi");
 		int ilkSayi = scanner.nextInt();
 		
-		System.out.println("Ýkinci Sayi");
+		System.out.println("Ä°kinci Sayi");
 		int ikinciSayi = scanner.nextInt();
 		
 		System.out.println(ilkSayi * ikinciSayi);

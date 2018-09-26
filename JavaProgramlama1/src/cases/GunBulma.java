@@ -12,7 +12,7 @@ public class GunBulma {
 		// TODO Auto-generated method stub
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Gün Giriniz\t:\t");
+		System.out.print("GÃ¼n Giriniz\t:\t");
 		int gun = scanner.nextInt();
 		int kalanGun = gun % 7;
 		switch (kalanGun) {
@@ -20,25 +20,25 @@ public class GunBulma {
 			System.out.println("PAZAR");
 			break;
 		case 1:
-			System.out.println("PAZARTESÝ");
+			System.out.println("PAZARTESÄ°");
 			break;
 		case 2:
 			System.out.println("SALI");
 			break;
 		case 3:
-			System.out.println("ÇARÞAMBA");
+			System.out.println("Ã‡ARÅžAMBA");
 			break;
 		case 4:
-			System.out.println("PERÞEMBE");
+			System.out.println("PERÅžEMBE");
 			break;
 		case 5:
 			System.out.println("CUMA");
 			break;
 		case 6:
-			System.out.println("CUMARTESÝ");
+			System.out.println("CUMARTESÄ°");
 			break;
 		default:
-			System.out.println("GÜN BULUNAMADI");
+			System.out.println("GÃœN BULUNAMADI");
 			break;
 		}
 	}

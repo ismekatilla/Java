@@ -9,7 +9,7 @@ public class TekSayiBulma {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Sayý\t:");
+		System.out.print("SayÄ±\t:");
 		byte sayi = scanner.nextByte();
 		for (int i = 0; i <= sayi; i++) {
 			if (i % 2 == 1) {

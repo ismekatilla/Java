@@ -10,25 +10,25 @@ public class SwitchCaseBasariDurumu {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Aldýðýnýz harf notu\t:\t");
+		System.out.print("AldÄ±ÄŸÄ±nÄ±z harf notu\t:\t");
 		String notDurumu = scanner.next();
 		
 		switch (notDurumu) {
 		case "A":
-			System.out.println("MÜKEMMEL");
+			System.out.println("MÃœKEMMEL");
 			break;
 		case "B":
 		case "C":
-			System.out.println("ÝYÝ");
+			System.out.println("Ä°YÄ°");
 			break;
 		case "D":
-			System.out.println("FENA DEÐÝL");
+			System.out.println("FENA DEÄžÄ°L");
 			break;
 		case "E":
-			System.out.println("KÖTÜ");
+			System.out.println("KÃ–TÃœ");
 			break;
 		case "F":
-			System.out.println("ÇOK KÖTÜ");
+			System.out.println("Ã‡OK KÃ–TÃœ");
 			break;
 		default:
 			break;

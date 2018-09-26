@@ -11,23 +11,23 @@ public class NotHesaplama {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Doðru Cevap Sayýsý");
+		System.out.print("DoÄŸru Cevap SayÄ±sÄ±");
 		int dogruCevapSayisi = scanner.nextInt();
 		
-		System.out.print("Yanlýþ Cevap Sayýsý");
+		System.out.print("YanlÄ±ÅŸ Cevap SayÄ±sÄ±");
 		int yanlisCevapSayisi = scanner.nextInt();
 		
 		dogruCevapSayisi = dogruCevapSayisi - (yanlisCevapSayisi / 4); 
 		float dogruCevapPuani = dogruCevapSayisi * 5;
-		System.out.println("Doðru Puaný = " + dogruCevapPuani);
+		System.out.println("DoÄŸru PuanÄ± = " + dogruCevapPuani);
 
 		float yanlisCevapPuani = yanlisCevapSayisi * 0.25f;
-		System.out.println("Yanlýþ Puaný = " + yanlisCevapPuani);
+		System.out.println("YanlÄ±ÅŸ PuanÄ± = " + yanlisCevapPuani);
 		
 		float genelPuan = dogruCevapPuani - yanlisCevapPuani;
-		System.out.println("Aldýðý Puan = " + genelPuan);
+		System.out.println("AldÄ±ÄŸÄ±nÄ±z Puan = " + genelPuan);
 		if (genelPuan > 50) {
-			System.out.println("GEÇTÝ");
+			System.out.println("GEÃ‡TÄ°");
 		} else {
 			System.out.println("KALDI");
 		}

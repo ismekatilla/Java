@@ -19,9 +19,9 @@ public class IfStatement {
 		String isim2 = scanner.next();
 		
 		if(isim1.equals(isim2)) {
-			System.out.println("Girilen isimler eşittir.");
+			System.out.println("Girilen isimler eÅŸittir.");
 		} else {
-			System.out.println("Girilen isimler eşit değildir.");
+			System.out.println("Girilen isimler eÅŸit deÄŸildir.");
 		}
 	}
 }

@@ -15,32 +15,32 @@ public class SwitchCase {
 		
 		switch (gun) {
 		case "PTS":
-			System.out.println("PAZARTESÝ");
+			System.out.println("PAZARTESÄ°");
 			break;
 		case "SL":
 			System.out.println("SALI");
 			break;
-		case "ÇRÞ":
-			System.out.println("ÇARÞAMBA");
+		case "Ã‡RÅž":
+			System.out.println("Ã‡ARÅžAMBA");
 			break;
-		case "PRÞ":
-			System.out.println("PERÞEMBE");
+		case "PRÅž":
+			System.out.println("PERÅžEMBE");
 			break;
 		default:
-			System.out.println("HAFTANIN BÝR GÜNÜ ÝÞTE");
+			System.out.println("HAFTANIN BÄ°R GÃœNÃœ DEÄžÄ°L");
 			break;
 		}
 		
 		if (gun.equals("PTS")) {
-			System.out.println("PAZARTESÝ");
+			System.out.println("PAZARTESÄ°");
 		} else if (gun.equals("SL")) {
 			System.out.println("SALI");
-		} else if (gun.equals("ÇRÞ")) {
-			System.out.println("ÇARÞAMBA");
-		} else if (gun.equals("PRÞ")) {
-			System.out.println("PERÞEMBE");
+		} else if (gun.equals("Ã‡RÅž")) {
+			System.out.println("Ã‡ARÅžAMBA");
+		} else if (gun.equals("PRÅž")) {
+			System.out.println("PERÅžEMBE");
 		} else {
-			System.out.println("HAFTANIN BÝR GÜNÜ ÝÞTE");
+			System.out.println("HAFTANIN BÄ°R GÃœNÃœ DEÄžÄ°L");
 		}
 	}
 
