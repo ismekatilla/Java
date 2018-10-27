@@ -1,4 +1,4 @@
-package diziler;
+package methods;
 
 public class Abone {
 

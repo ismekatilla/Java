@@ -1,4 +1,4 @@
-package org.ismek.java;
+package methods;
 
 import java.util.Scanner;
 
