@@ -58,13 +58,19 @@ public class JavaSyntax {
 /*
 	5. Class Initializers (Süslü parantezler arasında kalan bölümdür. )
 	Bu class ın yeni bir örneği oluşturulduğunda ilk çalışacak bölümdür.
+	Class Initializers class ın bir üyesidir.
+	
+	Değişken tanımı yapılırken final değişkenlerin değeri mutlaka atanmalıdır.
+	Bu işlem ya değişken tanımı yapıldığında yapılmalıdır. Ya da initializer da yapılmalıdır.
+	Initializer özellikle final değişkenlere çalışma anında değer atamak için kullanılır.
+	Consructor da bu işlem gerçekleştirilemez.
 */
 	{}
 	
 /*
 	6. Constructors
-	Constructors Class initializers ile aynıdır. 
-	Tek farkları parametre alabilirler.
+	Constructors Class class ın bir üyesi değildirler.
+	Class Initializer dan farklı olarak parametre alabilirler.
 */
 	public JavaSyntax() {
 	}
