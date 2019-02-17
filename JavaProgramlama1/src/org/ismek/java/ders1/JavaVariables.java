@@ -1,6 +1,10 @@
 package org.ismek.java.ders1;
 
 public class JavaVariables {
+	
+	//data type variable [ = value][, variable [ = value] ...] ;
+	
+	// Program içerisinde gerçekleşecek işlemlerde 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
