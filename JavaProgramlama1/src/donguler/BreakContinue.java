@@ -10,6 +10,7 @@ public class BreakContinue {
 		for (int i = 0; i < sayi; i++) {
 			if (i == 5) {
 				continue;
+				
 			}
 			
 			if (i == 7) {
